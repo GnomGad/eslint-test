@@ -1,10 +1,13 @@
 let a = 10;
-const b = 100;
+
 a += 1;
-sex = function (a) {
-  return a;
-};
-const s_s = 1000;
+/**
+ * koks
+ * @param {*} a sex
+ * @returns {a} mex
+ */
+const sex = (b) => b;
+
 console.log(a);
 
 console.log(sex(1));

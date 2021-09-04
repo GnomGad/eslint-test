@@ -6,9 +6,9 @@
   "author": "Evgeny <canimore@yandex.ua>",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npx husky install",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -18,7 +18,7 @@
   "lint-staged": {
     "*.js": [
       "yarn lint:fix",
-      "git add"
+      "git add ."
     ]
   },
   "devDependencies": {
@@ -28,6 +28,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
     "prettier": "^2.3.2"
   }
 }
