@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+    },
+    "eslint.packageManager": "yarn",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}
